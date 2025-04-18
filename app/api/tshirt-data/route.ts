@@ -1,8 +1,9 @@
-import { NextResponse } from "next/server"
+export const dynamic = "force-static";
+import { NextResponse } from "next/server";
 
 // API endpoint URL
 const API_URL =
-  "https://script.google.com/macros/s/AKfycbz8j2mEAYbOlsLHEIFwunY1ygxR0xqJeL0EPHdUYUpG_RcJYtXKe4_MyaOyBhB5LJFE/exec"
+  "https://script.google.com/macros/s/AKfycbz8j2mEAYbOlsLHEIFwunY1ygxR0xqJeL0EPHdUYUpG_RcJYtXKe4_MyaOyBhB5LJFE/exec";
 
 export async function GET() {
   try {
@@ -14,18 +15,18 @@ export async function GET() {
       },
       // Important: Use next.js cache settings
       next: { revalidate: 60 }, // Revalidate every 60 seconds
-    })
+    });
 
     if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`)
+      throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
-    const data = await response.json()
+    const data = await response.json();
 
     // Return the data
-    return NextResponse.json(data)
+    return NextResponse.json(data);
   } catch (error: any) {
-    console.error("Error fetching T-shirt data:", error)
+    console.error("Error fetching T-shirt data:", error);
 
     // Return mock data when the API call fails
     const mockData = {
@@ -38,7 +39,7 @@ export async function GET() {
       XL: { distributed: 40, stockReceived: 50, availability: 10 },
       "2XL": { distributed: 20, stockReceived: 30, availability: 10 },
       "3XL": { distributed: 5, stockReceived: 10, availability: 5 },
-    }
+    };
 
     return NextResponse.json(mockData, {
       status: 200,
@@ -46,6 +47,6 @@ export async function GET() {
         "X-Mock-Data": "true",
         "X-Error-Message": error.message,
       },
-    })
+    });
   }
 }
