@@ -5,7 +5,7 @@ import type { ApiResponse, SizeAvailability } from "@/types";
 
 // API endpoint URL - use our proxy API route
 const API_URL =
-  "https://script.google.com/macros/s/AKfycbwxT6IK1wKwZ0hPn98oUKEKcOKQkHrJglS0kaMLAEfh8_oLuvrkkouzqKV_r9D3ZSkM/exec";
+  "https://script.google.com/macros/s/AKfycby3w5OVbK7ewWuWjCMZLih5ihGY1ar0pWP-FeZ5PfjTMJhZHFi9TIsryJh6CccUpvv-/exec";
 
 // Constants for determining stock status
 const LOW_STOCK_THRESHOLD = 5;
