@@ -1,0 +1,38 @@
+{
+  "orderNumber": "ORD-2023-5678",
+  "currentStep": 2,
+  "orderDate": "April 5, 2023",
+  "estimatedDelivery": "April 15, 2023",
+  "items": "SESC Event T-shirt × 2",
+  "shippingMethod": "Standard Delivery",
+  "steps": [
+    {
+      "id": 1,
+      "name": "Pre Ordering",
+      "description": "We've received your order and it's being processed",
+      "icon": "ShoppingCart",
+      "date": "April 5, 2023 - 10:30 AM"
+    },
+    {
+      "id": 2,
+      "name": "In Production",
+      "description": "Your T-shirts are currently being manufactured",
+      "icon": "Package",
+      "date": "April 7, 2023 - 9:15 AM"
+    },
+    {
+      "id": 3,
+      "name": "Distribution",
+      "description": "T shirts are being Distributed",
+      "icon": "Truck",
+      "date": "Estimated: April 10, 2023"
+    },
+    {
+      "id": 4,
+      "name": "Completed",
+      "description": "Your T-shirts have been successfully delivered",
+      "icon": "CheckCircle",
+      "date": "Estimated: April 15, 2023"
+    }
+  ]
+}

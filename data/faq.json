@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "How long does it take to produce the T-shirts?",
+    "answer": "Production usually takes around 3–5 weeks, depending on order volume and New Year holidays."
+  },
+  {
+    "id": 2,
+    "question": "How will I know when my order is ready for pickup?",
+    "answer": "As soon as the T-shirts arrive, SESC will notify you via social media and your batch groups. We’ll also update the 'Pick-up Points' section with all the details."
+  },
+  {
+    "id": 3,
+    "question": "Is there any priority for T-shirt distribution?",
+    "answer": "Yes, T-shirts will be given out on a first-come, first-served basis. So make sure to come early!"
+  },
+  {
+    "id": 4,
+    "question": "How can I check if my T-shirt is available for pickup?",
+    "answer": "Before heading out, please check the availability tracker (by size) to save your time. Stock updates will be shown in real time."
+  },
+  {
+    "id": 5,
+    "question": "What if I have a different issue or question?",
+    "answer": "No worries! Just drop us an email at sesc.foc@sliit.lk and we’ll be happy to help."
+  }
+]
