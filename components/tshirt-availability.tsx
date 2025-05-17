@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react"
 import { RefreshCw, AlertTriangle, Loader2, Lock } from "lucide-react"
 import type { ApiResponse, SizeAvailability } from "@/types"
 
-const API_URL = "https://script.google.com/macros/s/AKfycbz8j2mEAYbOlsLHEIFwunY1ygxR0xqJeL0EPHdUYUpG_RcJYtXKe4_MyaOyBhB5LJFE/exec"
+const API_URL = "/api/tshirt-data"
 const LOW_STOCK_THRESHOLD = 5
 const FETCH_INTERVAL = 25000 // 25 Seconds
 const ENABLE_FETCHING = true
