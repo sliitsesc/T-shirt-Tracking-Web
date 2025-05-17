@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 // API endpoint URL
 const API_URL =
-  "https://script.google.com/macros/s/AKfycbz8j2mEAYbOlsLHEIFwunY1ygxR0xqJeL0EPHdUYUpG_RcJYtXKe4_MyaOyBhB5LJFE/exec";
+  "https://tee-backend-06or.onrender.com/api/tshirt-data";
 
 export async function GET() {
   try {
