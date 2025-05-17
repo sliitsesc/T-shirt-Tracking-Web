@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react"
 import { RefreshCw, AlertTriangle, Loader2, Lock } from "lucide-react"
 import type { ApiResponse, SizeAvailability } from "@/types"
 
-const API_URL = "/api/tshirt-data"
+const API_URL = "https://tee-backend-06or.onrender.com/api/tshirt-data"
 const LOW_STOCK_THRESHOLD = 5
 const FETCH_INTERVAL = 25000 // 25 Seconds
 const ENABLE_FETCHING = true
