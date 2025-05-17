@@ -19,7 +19,7 @@ export default function Home() {
 
       <main className="flex-1">
         <HeroSection orderStatus={orderStatusData} />
-        {/* <TShirtAvailability /> */}
+       <TShirtAvailability /> 
         <PickupPoints pickupPoints={pickupPointsData} />
         <FAQSection faqs={faqData} />
       </main>
