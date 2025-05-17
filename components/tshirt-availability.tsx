@@ -5,7 +5,7 @@ import type { ApiResponse, SizeAvailability } from "@/types"
 
 const API_URL = "https://tee-backend-06or.onrender.com/api/tshirt-data"
 const LOW_STOCK_THRESHOLD = 5
-const FETCH_INTERVAL = 25000 // 25 Seconds
+const FETCH_INTERVAL = 180000
 const ENABLE_FETCHING = true
 
 export default function TShirtAvailability() {
